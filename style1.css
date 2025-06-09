@@ -1,0 +1,43 @@
+*{
+    margin:25px;
+    padding:5px;
+}
+
+#container{
+        display:flex;
+        justify-content: center;
+        align-content: center;
+        
+        
+}
+.box{
+    height:400px;
+    width:400px;
+    border:1px solid black;
+    background-color:black;
+    border-radius: 8px;
+}
+h1{
+    text-align: center;
+      
+    padding-top:100px;
+}
+button{
+    border-radius: 50PX;
+    /*  */
+    width:90px; 
+    height:50px;
+    margin:2px;
+    font-size: 18px;
+}
+input{
+    height:20px;
+    width:320px;
+    border-radius: 8px;
+}
+.icon1{
+    background-color: teal;
+}
+.icon2{
+    background-color:#E9C46A;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet"  href="style1.css">
+</head>
+<body>
+  <h1>calculator</h1> 
+  <div id="container">
+  <div class="box">
+    <input type="text" id="result" readonly/>
+    
+    <button class="icon1" onclick="clearResult('Ac')">Ac</button>
+    <button class="icon1" id="removeValue">X</button>
+    <button class="icon1" onclick="press('%')">%</button>
+    <button class="icon2" onclick="press('/')">/</button>
+    <button class="icon" onclick="press('7')">7</button>
+    <button class="icon" onclick="press('8')">8</button>
+    <button class="icon" onclick="press('9')">9</button>
+    <button class="icon2" onclick="press('*')">*</button>
+    <button class="icon" onclick="press('4')">4</button>
+    <button class="icon" onclick="press('5')">5</button>
+    <button class="icon" onclick="press('6')">6</button>
+    <button class="icon2" onclick="press('-')">-</button>
+    <button class="icon" onclick="press('1')">1</button>
+    <button class="icon" onclick="press('2')">2</button>
+    <button class="icon" onclick="press('3')">3</button>
+    <button class="icon2" onclick="press('+')">+</button>
+    <button class="icon" onclick="press('C')">C</button>
+    <button class="icon" onclick="press('0')">0</button>
+    <button class="icon" onclick="press('.')">.</button>
+    <button class="icon2" onclick="calculate()">=</button>
+  </div> 
+  </div>
+  <script src="claculator.js"></script>
+</body>
+</html>
